@@ -1,0 +1,9 @@
+joblib
+flask
+nltk
+numpy
+pandas
+requests
+scikit-learn
+scipy
+regex
