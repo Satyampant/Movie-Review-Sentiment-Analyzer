@@ -9,8 +9,8 @@ IMAGE_FOLDER = os.path.join('static', 'img_pool')
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = IMAGE_FOLDER
 # model_path = os.getcwd()+r'\sentimentanalysis\models\model'
-model_path = os.getcwd() + r'\models'
-classifier = joblib.load(model_path + r'\classifier.pkl')
+model_path = os.getcwd() + r'/models'
+classifier = joblib.load(model_path + r'/classifier.pkl')
 
 
 def predictfunc(review):
